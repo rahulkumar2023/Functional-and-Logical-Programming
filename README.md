@@ -2,11 +2,13 @@
 
 This repository contains a collection of programs written in **Haskell** and **Prolog**, focusing on recursion, mathematical computations, logical reasoning, and tree operations. Each file addresses distinct problem-solving techniques and implementations.
 
+---
+
 ## Repository Structure
 
 ### Haskell Files
 
-1. **`A1.hs`**
+1. **`recursion-and-evaluation.hs`**
    - **Description:** Implements mathematical and recursive functions.
    - **Key Features:**
      - **`sqroot`**: Determines if one number is the principal square root of another.
@@ -14,7 +16,7 @@ This repository contains a collection of programs written in **Haskell** and **P
      - **`gallop_seq`**: Generates a sequence of results from the `gallop` function as a semicolon-separated string.
    - **Tests:** Includes comprehensive test cases for each function.
 
-2. **`A2.hs`**
+2. **`list-and-recursive-patterns.hs`**
    - **Description:** Focuses on list manipulation and functional transformations.
    - **Key Features:**
      - **`rewrite`**: Duplicates elements in a list based on a predicate.
@@ -24,7 +26,7 @@ This repository contains a collection of programs written in **Haskell** and **P
      - **`sing` and `repeat_sing`**: Recursive transformations of custom `Song` data structures.
    - **Tests:** Comprehensive test cases for all functions, including list manipulation and recursive song processing.
 
-3. **`A3.hs`**
+3. **`propositional-logic-evaluator.hs`**
    - **Description:** Implements propositional logic operations and truth table generation.
    - **Key Features:**
      - **`Formula` data type**: Represents classical propositional logic.
@@ -36,7 +38,7 @@ This repository contains a collection of programs written in **Haskell** and **P
 
 ### Prolog File
 
-4. **`logic_tasks.pro`**
+4. **`math-and-tree-operations.pro`**
    - **Description:** Implements mathematical and tree operations using Prolog.
    - **Key Features:**
      - **`factorsLoop` and `factors`**: Computes all factors of a number.
@@ -56,8 +58,8 @@ This repository contains a collection of programs written in **Haskell** and **P
 1. **Compile and Run:**
    - Use `ghc` to compile the files or `ghci` for interactive testing:
      ```bash
-     ghc A1.hs
-     ghci A1.hs
+     ghc recursion-and-evaluation.hs
+     ghci recursion-and-evaluation.hs
      ```
 2. **Execute Test Cases:**
    - Run the provided test cases in GHCi to verify correctness:
@@ -71,7 +73,7 @@ This repository contains a collection of programs written in **Haskell** and **P
 1. **Load and Test in SWI-Prolog:**
    - Load the file:
      ```prolog
-     ?- [logic_tasks].
+     ?- [math-and-tree-operations].
      ```
    - Example Queries:
      ```prolog
@@ -84,7 +86,7 @@ This repository contains a collection of programs written in **Haskell** and **P
 
 ## Examples
 
-### Haskell Example (A1.hs)
+### Haskell Example (`recursion-and-evaluation.hs`)
 ```haskell
 > gallop 13 3
 4563
@@ -92,7 +94,7 @@ This repository contains a collection of programs written in **Haskell** and **P
 "360;720;1080"
 ```
 
-### Prolog Example (logic_tasks.pro)
+### Prolog Example (`math-and-tree-operations.pro`)
 ```prolog
 ?- isPrime(20, Answer).
 Answer = notprime([2, 5]).
