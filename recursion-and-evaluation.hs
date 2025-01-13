@@ -116,7 +116,6 @@ Replace the underlines (_______).
 
   => 21                           by arithmetic
 
-  For full marks, state the substitution in the function application step.
   For example:
 
   "...                          by function application
@@ -141,8 +140,6 @@ square x = x * x
   => 3 * 3                                 by definition of square
 
   => 9                                     by arithmetic
-
-  For full marks, state the substitution in all function application steps.
 
 Step the following expression as far as possible.
 
